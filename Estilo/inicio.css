@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: #141414;
+    font-family: 'Times New Roman', Times, serif;
+}
+header .conteiner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    padding-left: 50px;
+    padding-right: 0px;
+    color: #dc0813;
+    font-family: 'arial black';
+    font-size: 30px;
+}
+header nav a{
+    color:rgba(255, 255, 255, 0.664);
+    margin-right: 5px;
+    padding-right: 0;
+    font-size: 16px;
+}
+header nav a:hover{
+    color: white;
+}
+
+.filme-principal{
+font-size: 16px;
+background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) ,url(../Imagem/Backgroud-thewalking.jpg) no-repeat;
+height: 600px;
+background-size: cover;
+}
