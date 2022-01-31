@@ -18,8 +18,9 @@ body{
 header .cabecalio{
     position:absolute;
     width: 100%;
+    max-width: 1740px;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     padding-top: 18px;
     padding-left: 0px;
     top: 13px;
@@ -46,7 +47,7 @@ header .lingua{
     border-color: white;
 }
 
-/*filme principal*/
+/*pagina principal*/
 .backgroud-itens{
     
     background: -webkit-linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.50)100%),  url('/Imagem/Backgroud.jpg') no-repeat;
@@ -98,20 +99,13 @@ header .lingua{
     color:white;
 }
 
-.filme-principal .container{
-    width: 70%;
+/* Grade de descriuções*/
+.container{
+    max-width: 1130px;
 }
+.section{
+    padding: 4px 0px;
 
-.box-filme{
-    height: 100%;
-    width: 100%;
-    display: block;
-    cursor: pointer;
-}
-
-
-.carrosel-filmes{
-    margin-top:5px;
 }
 
 
