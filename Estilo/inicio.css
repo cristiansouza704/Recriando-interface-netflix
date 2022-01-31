@@ -13,18 +13,28 @@
 body{
    background: var(--preta);
    font-family: sans-serif;
-   color:white;
+   color:white;   
 }
 header .cabecalio{
-    position:absolute;
+    position: absolute;
+    padding: 20px; 
     width: 100%;
-    max-width: 1740px;
     display: flex;
-    justify-content:space-between;
-    padding-top: 18px;
-    padding-left: 0px;
-    top: 13px;
-    left: 53px;
+    flex-direction:center;
+    justify-content:center;
+    align-items: flex-start;
+    max-width: 2000px auto;
+}
+header .cabecalio .titulos{
+    position: relative;
+    display: flex;
+    max-width: 1160px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+header .ling-menu{
+    display: flex;
 }
 header .entrar{
     position:relative;
@@ -33,7 +43,9 @@ header .entrar{
     padding: 6px 17px;
     text-decoration: none;
     border-radius: 3px;
-    right: 107px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
 }
 header .lingua{
     font-size: 16px;
@@ -41,7 +53,6 @@ header .lingua{
     background-color: rgba(0, 0, 0, 0.151);
     border-radius: 3px;
     position: relative;
-    left: 320px;
     padding: 7px 12px ;
     border-style: solid;
     border-color: white;
@@ -49,23 +60,23 @@ header .lingua{
 
 /*pagina principal*/
 .backgroud-itens{
-    
-    background: -webkit-linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.50)100%),  url('/Imagem/Backgroud.jpg') no-repeat;
-    background-size: contain;
+    background: -webkit-linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.50)100%),  url('/Imagem/Backgroud.jpg') no-repeat center center/cover;
+    top: -70px;
     text-align: center;
-    height: 720px;   
+    height: 720px;  
+    max-width: 100%;
     display: flex;
     flex-direction:center;
     justify-content:center;
     align-items: flex-start;
-    max-width: 2000px;
+    max-width: 2000px auto;
 }
 .backgroud-itens .texto-icones{
     margin-top: 240px;
-    max-width: 2000px;
+    max-width: 1000px;
 }
 .backgroud-itens .texto-icones h1{
-    font-size: 3.125rem;
+    font-size: 50px;
     text-align: center;
     width: 700px;
     margin-bottom: 10px;
