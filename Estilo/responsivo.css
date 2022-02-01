@@ -1,18 +1,22 @@
 @media screen and (max-width:700px){
-    header .container{
+    header .cabecalio .titulos{
     display: flex;
     flex-direction: column;
+    max-width: 700px;
+    width: 40%;
     }
 
-    .botao{
+    header .cabecalio .titulos{
         margin-top: 5px;
-        width: 300px;
+        max-width: 300px;
+        width: 50%;
     }
 
 }
 
 @media screen and (min-width:1000px){
-    .descricao{
+    header .cabecalio{
+        max-width: 1000;
         width: 50%;
     }
 }

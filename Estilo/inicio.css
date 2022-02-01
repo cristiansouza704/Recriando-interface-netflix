@@ -61,7 +61,6 @@ header .lingua{
 /*pagina principal*/
 .backgroud-itens{
     background: -webkit-linear-gradient(rgba(0,0,0,.80),rgba(0,0,0,.50)100%),  url('/Imagem/Backgroud.jpg') no-repeat center center/cover;
-    top: -70px;
     text-align: center;
     height: 720px;  
     max-width: 100%;
@@ -78,7 +77,7 @@ header .lingua{
 .backgroud-itens .texto-icones h1{
     font-size: 50px;
     text-align: center;
-    width: 700px;
+    width: 600px;
     margin-bottom: 10px;
 }
 .backgroud-itens .texto-icones h2{
@@ -112,7 +111,14 @@ header .lingua{
 
 /* Grade de descriuções*/
 .container{
-    max-width: 1130px;
+    width: 100%;
+    display: flex;
+    flex-direction:center;
+    justify-content:center;
+    align-items: flex-start;
+    max-width: 2000px auto;
+    background-color: black;
+    border-top:7px solid #222222
 }
 .section{
     padding: 4px 0px;
