@@ -183,9 +183,22 @@ header .lingua{
     margin-top: 50px;
     margin-bottom: 100px;
 }
-
-
-
-
-
-
+.form-section .grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 80px;
+}
+.footer{
+    border-top: 8px solid #222222;
+    padding: 230px;
+    background-color: black;
+    display: flex;    
+}
+.form-section .grid{
+    display:flex;
+    flex-direction: column;
+}
+.form-section .grid p{
+    font-size: 20px;
+}
