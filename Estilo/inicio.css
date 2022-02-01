@@ -15,6 +15,10 @@ body{
    font-family: sans-serif;
    color:white;   
 }
+img{
+    display: block;
+    max-width: 100%;
+}
 header .cabecalio{
     position: absolute;
     padding: 20px; 
@@ -116,13 +120,42 @@ header .lingua{
     flex-direction:center;
     justify-content:center;
     align-items: flex-start;
-    max-width: 2000px auto;
+    max-width: 1130;
     background-color: black;
-    border-top:7px solid #222222
+    
 }
 .section{
     padding: 4px 0px;
+    border-top:8px solid #222
 
+}
+.section h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.section p{
+    font-size: 26px;
+}
+.section .desc-videos{
+    max-width: 600px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;  
+    width: 1100px;
+}
+.img-tv{
+    position: relative;
+}
+.img-tv img{
+    position: relative;
+    z-index: 1;
+}
+.video-tv{
+    position: absolute;
+    top: 90px;
+    left: 70px;
 }
 
 
