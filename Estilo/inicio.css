@@ -73,6 +73,7 @@ header .lingua{
     justify-content:center;
     align-items: flex-start;
     max-width: 2000px auto;
+    border-bottom: 8px solid #222222;
 }
 .backgroud-itens .texto-icones{
     margin-top: 240px;
@@ -126,8 +127,6 @@ header .lingua{
 }
 .section{
     padding: 4px 0px;
-    border-top:8px solid #222
-
 }
 .section h1{
     font-size: 50px;
@@ -157,7 +156,33 @@ header .lingua{
     top: 90px;
     left: 70px;
 }
-
+.download .grid > div:first-child{
+    order: 2;
+}
+.download{
+    order: 1;
+}
+.download .img-tv img{
+   width: 500px; 
+   margin-top: 40px;
+   margin-bottom: 50px;
+   margin-left: -80px;
+}
+.perfil .grid > div:first-child{
+    order: 2;
+}
+.perfil{
+    order: 1;
+}
+.assista .video-tv{
+    width: 350px;   
+    margin-top: -45px;
+    margin-left: 30px;
+}
+.assista .grid{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
 
 
 
